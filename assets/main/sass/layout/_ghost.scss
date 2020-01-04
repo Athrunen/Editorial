@@ -2,7 +2,7 @@
 // --------------------------------------------
 
 #header .logo {
-    color: #3d4449;
+    color: _palette(fg-bold);
     font-weight: bold;
 }
 
@@ -30,12 +30,12 @@
     }
 
     #sidebar:not(.inactive) .toggle:after {
-        background: #f56a6a;
+        background: _palette(accent);
     }
 }
 
 #banner {
-    border-bottom: solid 2px rgba(210, 215, 217, 0.75);
+    border-bottom: solid 2px _palette(border);
 }
 
 
@@ -55,7 +55,7 @@
     align-items: center;
     width: 100%;
     padding: 3rem 0;
-    border-top: solid 2px rgba(210, 215, 217, 0.75);
+    border-top: solid 2px _palette(border);
 }
 
 
@@ -348,11 +348,11 @@
 .kg-bookmark-title {
     font-weight: 600;
     line-height: 1.5em;
-    color: #3d4449;
+    color: _palette(fg-bold);
 }
 
 .kg-bookmark-container:hover .kg-bookmark-title {
-    color: #f56a6a;
+    color: _palette(accent);
 }
 
 .kg-bookmark-description {
@@ -360,7 +360,7 @@
     font-size: 90%;
     font-weight: 400;
     line-height: 1.6em;
-    color: #7f888f;
+    color: _palette(fg);
     margin-top: 0.8rem;
     max-height: 2.6rem;
     overflow-y: hidden;
@@ -400,7 +400,7 @@
     align-items: center;
     font-size: 90%;
     line-height: 1.6em;
-    color: #7f888f;
+    color: _palette(fg);
     margin-top: 1rem;
     flex-wrap: wrap;
 }
